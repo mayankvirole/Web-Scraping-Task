@@ -12,7 +12,7 @@ try:
     client.load_cookies('cookies.json')
 except FileNotFoundError:
     print("No cookies found. You need to login manually first.")
-    client.login('NMaster52108', 'Buttowski@1', 'verification_code_if_needed')
+    client.login('username', 'password', 'verification_code_if_needed')
     client.save_cookies('cookies.json')
     exit("Please login first to generate cookies.json.")
 

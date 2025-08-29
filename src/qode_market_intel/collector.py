@@ -3,10 +3,7 @@ from twikit import Client
 
 client = Client()
 
-COOKIE_FILE = "cookies.json"
-USERNAME = "NMaster52108"
-PASSWORD = "Buttowski@1"
-EMAIL = "666garlet@gmail.com"        # Needed if Twitter asks
+COOKIE_FILE = "cookies.json"      # Needed if Twitter asks
 PHONE = None                     # Optional, if your account requires it
 
 
